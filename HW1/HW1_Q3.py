@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(1, 'C:\\Users\\AHMET\\Documents\\GitHub\\CS-Stuff\\STAT 3025Q')
+curr_path = sys.path[0]
+sys.path.insert(1, f'{curr_path}/..')
 import STAT3025_Tools.Stat_Tools as ST
 
 data = '''

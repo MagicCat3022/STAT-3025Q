@@ -179,3 +179,5 @@ def construct_boxplot(data: Sequence[int | float]) -> None:
     plt.ylabel("Values")
     plt.grid(True)
     plt.show()
+    
+    
